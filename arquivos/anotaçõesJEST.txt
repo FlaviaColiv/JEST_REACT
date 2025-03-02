@@ -29,3 +29,10 @@ Documentação https://jestjs.io/pt-BR/docs/getting-started
 
 Testes automatizados de software com Jest - Básico - Criando nosso primeiro teste automatizado com Jest
 Nesta aula, iremos criar nosso primeiro teste automatizado usando o Jest. Aprenderemos a configurar o ambiente, escrever casos de teste básicos e executá-los. Você estará apto a iniciar a prática de testes automatizados de software com o Jest após esta aula.
+
+Testes automatizados de software com Jest - Básico - Aprofundando nos testes de unidade
+Durante a aula, serão apresentados exemplos práticos de testes de unidade usando o Jest, para que você possa aplicar os conceitos aprendidos imediatamente. Você também terá a oportunidade de explorar casos de teste mais complexos e aprender a lidar com situações desafiadoras que podem surgir durante os testes de unidade.
+
+Importante: 
+
+Ao baixar o código na descrição, é necessário rodar o comando npm install para instalar as dependências
