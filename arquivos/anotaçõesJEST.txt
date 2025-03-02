@@ -26,3 +26,6 @@ npm init : Para inicializar um novo package.json
 npm install --save-dev jest : Para realizar a instalação do Jest como dependência de desenvolvimento
 
 Documentação https://jestjs.io/pt-BR/docs/getting-started
+
+Testes automatizados de software com Jest - Básico - Criando nosso primeiro teste automatizado com Jest
+Nesta aula, iremos criar nosso primeiro teste automatizado usando o Jest. Aprenderemos a configurar o ambiente, escrever casos de teste básicos e executá-los. Você estará apto a iniciar a prática de testes automatizados de software com o Jest após esta aula.

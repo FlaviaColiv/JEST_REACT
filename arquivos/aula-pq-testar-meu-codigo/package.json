@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "calcular-valor-pedido.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "whatch": "jest --whatchAll *.js"
   },
   "author": "",
   "license": "ISC",
