@@ -9,3 +9,10 @@ Nesta aula sobre testes automatizados de software com Jest, você aprenderá sob
 
 Testes automatizados de software com Jest - Básico - Por que eu deveria testar meu código?
 Nesta aula sobre testes automatizados de software com Jest, você entenderá por que é importante testar o seu código. Você aprenderá sobre os benefícios dos testes automatizados e como eles podem garantir a qualidade e a confiabilidade do seu software. Ao compreender a importância dos testes, você estará mais motivado a incorporá-los em seu processo de desenvolvimento, aprimorando assim a qualidade do seu código.
+
+Testes automatizados de software com Jest - Básico - O que são test runners?
+Nesta aula sobre testes automatizados de software com Jest, você aprenderá sobre test runners, que são ferramentas responsáveis por executar os testes automatizados de um projeto. Você entenderá o papel dos test runners e aprenderá como configurar e utilizar o Jest como test runner. 
+
+Link de apoio:
+
+Documentação Jest:  https://jestjs.io/pt-BR/
