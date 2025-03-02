@@ -14,7 +14,7 @@ it("não deve cobrar valor de frete quando valor dos produtos for superior a 500
   // ACT - AÇÃO - O QUE VAI SER TESTADO
   const resultado = calcularValorPedido(meuPedido)
 
-  // ASSERT - ASSEÇÃO - QUAL RESULTADO ESPERADO
+  // ASSERT - ASSERÇÃO - QUAL RESULTADO ESPERADO
   expect(resultado).toBe(2000); 
 });
 
