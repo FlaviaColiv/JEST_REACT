@@ -1,0 +1,11 @@
+Testes automatizados de software com Jest - Básico - Introdução aos testes automatizados de software
+Nesta aula introdutória sobre testes automatizados de software com Jest, você aprenderá os conceitos básicos e fundamentais para iniciar sua jornada no mundo dos testes automatizados. 
+
+O Jest é uma ferramenta popular para testar aplicações JavaScript. Você entenderá a importância dos testes automatizados, explorará as funcionalidades do Jest e aprenderá sobre asserções e casos de teste. 
+
+Ao final do módulo, você estará pronto para começar a usar o Jest em seus projetos.
+Testes automatizados de software com Jest - Básico - Quais tipos de teste existem?
+Nesta aula sobre testes automatizados de software com Jest, você aprenderá sobre os três principais tipos de testes: testes unitários, testes de integração e testes de ponta a ponta. Os testes unitários verificam unidades isoladas do código, os testes de integração testam a interação entre diferentes unidades e os testes de ponta a ponta simulam a interação do usuário com a aplicação. O Jest será utilizado para escrever e executar esses testes, garantindo a qualidade do software.
+
+Testes automatizados de software com Jest - Básico - Por que eu deveria testar meu código?
+Nesta aula sobre testes automatizados de software com Jest, você entenderá por que é importante testar o seu código. Você aprenderá sobre os benefícios dos testes automatizados e como eles podem garantir a qualidade e a confiabilidade do seu software. Ao compreender a importância dos testes, você estará mais motivado a incorporá-los em seu processo de desenvolvimento, aprimorando assim a qualidade do seu código.
