@@ -16,3 +16,13 @@ Nesta aula sobre testes automatizados de software com Jest, você aprenderá sob
 Link de apoio:
 
 Documentação Jest:  https://jestjs.io/pt-BR/
+
+Testes automatizados de software com Jest - Básico - Instalando e configurando o Jest no projeto
+Nesta aula, você aprenderá como instalar e configurar o Jest em seu projeto de forma simples e direta. Você entenderá como adicionar o Jest como dependência, configurar o ambiente de desenvolvimento e criar um arquivo de configuração. Ao final da aula, você estará pronto para começar a criar testes automatizados com o Jest em seu projeto.
+
+Comandos usados durante a aula
+npm init : Para inicializar um novo package.json
+
+npm install --save-dev jest : Para realizar a instalação do Jest como dependência de desenvolvimento
+
+Documentação https://jestjs.io/pt-BR/docs/getting-started
