@@ -1,0 +1,7 @@
+A base do React - Introdução ao React.js
+Nesta aula, você será introduzido ao React.js, uma das bibliotecas mais populares para a construção de interfaces de usuário em aplicações web. Durante a aula, você aprenderá os conceitos fundamentais do React e como começar a utilizá-lo.
+
+Você começará entendendo o que é o React e por que ele se tornou tão popular entre os desenvolvedores web.
+
+React é uma biblioteca que serve para a criação de interfaces de usuário.
+Mais para desenvolvimento web frontend
