@@ -64,3 +64,11 @@ Esta aula é um guia completo sobre PropTypes e DefaultProps no ReactJS. Vamos g
 Link de apoio: 
 
 Typechecking With PropTypes – React (reactjs.org) https://legacy.reactjs.org/docs/typechecking-with-proptypes.html
+
+
+A base do React - Prop children
+Nesta aula, você aprenderá sobre uma poderosa técnica chamada "prop children". O prop children permite que você passe componentes, elementos ou até mesmo texto como propriedades para um componente pai no React.
+
+Durante esta aula, você explorará como usar o prop children para criar componentes reutilizáveis e flexíveis. Você entenderá como passar conteúdo personalizado para um componente pai e como acessar e manipular esse conteúdo dentro do componente filho.
+
+Atenção: Quando usamos o vite, a extensão dos arquivos sempre serão .jsx. Para rodar o projeto apenas use npm install e em seguinda npm run dev
