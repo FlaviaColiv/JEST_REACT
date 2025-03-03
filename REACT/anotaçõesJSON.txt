@@ -91,3 +91,8 @@ Nesta aula, você aprenderá sobre um conceito importante: listas no React e a p
 Você aprenderá como criar e renderizar listas no React, utilizando o método map para percorrer e exibir os elementos de um array. Além disso, você será apresentado à propriedade "key", que deve ser atribuída a cada item da lista para ajudar o React a identificar e atualizar corretamente os componentes.
 
 Atenção: Quando usamos o vite, a extensão dos arquivos sempre serão .jsx. Para rodar o projeto apenas use npm install e em seguinda npm run dev
+
+A base do React - Eventos no React
+Nesta aula sobre a base do React, vamos explorar os eventos. Os eventos são uma parte essencial da interatividade em aplicações React, permitindo que os usuários interajam com os componentes. Durante esta aula, você aprenderá como lidar com eventos no React de forma eficiente.
+
+Atenção: Quando usamos o vite, a extensão dos arquivos sempre serão .jsx. Para rodar o projeto apenas use npm install e em seguinda npm run dev
