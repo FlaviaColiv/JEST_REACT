@@ -84,3 +84,10 @@ Nesta aula, vamos aprender a como utilizar múltiplos componentes e aninhar comp
 Durante a aula, você será introduzido aos conceitos de componentização e reutilização de código no React. Você aprenderá como dividir sua interface em componentes menores e independentes, e como aninhá-los para construir interfaces mais complexas e escaláveis.
 
 Atenção: Quando usamos o vite, a extensão dos arquivos sempre serão .jsx. Para rodar o projeto apenas use npm install e em seguinda npm run dev
+
+A base do React - Listas no React e a prop "key"
+Nesta aula, você aprenderá sobre um conceito importante: listas no React e a prop "key". Listas são elementos essenciais em muitas aplicações React, e entender como trabalhar com elas é fundamental para desenvolver interfaces dinâmicas e eficientes.
+
+Você aprenderá como criar e renderizar listas no React, utilizando o método map para percorrer e exibir os elementos de um array. Além disso, você será apresentado à propriedade "key", que deve ser atribuída a cada item da lista para ajudar o React a identificar e atualizar corretamente os componentes.
+
+Atenção: Quando usamos o vite, a extensão dos arquivos sempre serão .jsx. Para rodar o projeto apenas use npm install e em seguinda npm run dev
