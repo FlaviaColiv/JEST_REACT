@@ -13,4 +13,7 @@ Nesta aula sobre a base do React, você aprenderá a criar um projeto de exemplo
 
 Durante a aula, você será guiado passo a passo na criação de um projeto de exemplo
 
+https://legacy.reactjs.org/docs/cdn-links.html
 
+A base do React - O JSX
+Nesta aula introdutória, você será apresentado ao conceito de JSX e sua importância no desenvolvimento de aplicações React. O JSX é uma extensão da sintaxe do JavaScript que permite escrever código HTML/XML dentro do JavaScript.
