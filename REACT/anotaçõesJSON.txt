@@ -77,3 +77,10 @@ A base do React - Propriedades default de componentes
 Nesta aula, você aprenderá sobre as propriedades padrão (default) dos componentes. Durante esta aula, você entenderá como definir e usar propriedades padrão em seus componentes React.
 
 Atenção: Quando usamos o vite, a extensão dos arquivos sempre serão .jsx. Para rodar o projeto apenas use npm install e em seguinda npm run dev
+
+A base do React - Utilizando múltiplos componentes (aninhando componentes)
+Nesta aula, vamos aprender a como utilizar múltiplos componentes e aninhar componentes para criar interfaces mais complexas.
+
+Durante a aula, você será introduzido aos conceitos de componentização e reutilização de código no React. Você aprenderá como dividir sua interface em componentes menores e independentes, e como aninhá-los para construir interfaces mais complexas e escaláveis.
+
+Atenção: Quando usamos o vite, a extensão dos arquivos sempre serão .jsx. Para rodar o projeto apenas use npm install e em seguinda npm run dev
