@@ -47,3 +47,8 @@ A base do React - Trabalhando com componentes de função
 Nesta aula, você será introduzido aos fundamentos do React e aprenderá a trabalhar com componentes de função.
 
 Atenção: Quando usamos o vite, a extensão dos arquivos sempre serão .jsx. Para rodar o projeto apenas use npm install e em seguinda npm run dev
+
+A base do React - Criando componentes de Classe
+Nesta aula, você aprenderá como criar componentes de classe. Compreender como criar componentes é fundamental para construir aplicativos React robustos.
+
+Atenção: Quando usamos o vite, a extensão dos arquivos sempre serão .jsx. Para rodar o projeto apenas use npm install e em seguinda npm run dev
