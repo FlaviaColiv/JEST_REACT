@@ -68,28 +68,49 @@
 
     </div>
 
+    <!-- ok -->
     <div>
-        <h1>Usando states em um class component</h1>
+        <h1>Lifecycle ou ciclos de vida no React</h1>
         <p>
-            React Avançado - Usando states em um class component
-            Nesta aula de React Avançado, você aprenderá sobre o gerenciamento de estado utilizando componentes de
-            classe. O React oferece diferentes abordagens para lidar com o estado de um componente, e nesta aula,
-            focaremos na utilização de class components.
+            React Avançado - Lifecycle ou ciclos de vida no React
+            Nesta aula, você aprenderá sobre os ciclos de vida ou "lifecycle" no React. Os ciclos de vida são métodos
+            especiais que são executados em momentos específicos durante o ciclo de vida de um componente React.
 
-            Primeiramente, você entenderá o conceito de estado em um componente React e sua importância no
-            desenvolvimento de aplicações. Aprenderá como criar e inicializar o estado em um class component e como
-            atualizá-lo de forma apropriada.
+            Você explorará os diferentes estágios do ciclo de vida de um componente, desde a sua criação até a sua
+            remoção. Aprenderá sobre os métodos que são chamados em cada estágio, como componentDidMount,
+            componentDidUpdate e componentWillUnmount, entre outros.
 
-            Em seguida, exploraremos as diferentes formas de manipular o estado em componentes de classe. Você aprenderá
-            a atualizar o estado utilizando o método setState, entendendo como fazer alterações incrementais, como lidar
-            com objetos complexos e como trabalhar com estados dependentes do estado anterior.
-            Atenção: Quando usamos o vite, a extensão dos arquivos sempre serão .jsx. Para rodar o projeto apenas use
-            npm install e em seguida npm run dev
+            Link de apoio:
+
+            State and Lifecycle – React (reactjs.org)
+            <a href="https://legacy.reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class">State
+                and
+                Lifecycle – React (reactjs.org)</a>
         </p>
+        <h3>os componentes React tem 4 fases</h3>
+        <ul>
+            <li>Inicialização</li>
+            <li>Montagem</li>
+            <ul>
+                <li>1. constructor()</li>
+                <li>2. getDerivedStateProps()</li>
+                <li>3. render()</li>
+                <li>4. componentDidMount()</li>
+            </ul>
+            <li>Atualização</li>
+            <ul>
+                <li>1. getDerivedStateFromProps</li>
+                <li>2. shouldComponentUldate()</li>
+                <li>3. render()</li>
+                <li>4. getSnapshotBeforeUpdat()</li>
+                <li>5. componentDidUpdate()</li>
+            </ul>
+            <li>Desmontagem</li>
+                <ul>
+                    <li>componentWillUnmount()</li>
+                </ul>
+        </ul>
 
-        <a href="./arquivos/react-estado.rar">Código realizado durante a aula - Uusando Create React App em .rar</a>
-        <a href="./arquivos/React Avançado - Usando states em um class component.zip">Código realizado durante a aula -
-            Usando VITE em .rar</a>
     </div>
 
     <div>
