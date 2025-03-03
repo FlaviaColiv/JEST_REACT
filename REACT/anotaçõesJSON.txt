@@ -72,3 +72,8 @@ Nesta aula, você aprenderá sobre uma poderosa técnica chamada "prop children"
 Durante esta aula, você explorará como usar o prop children para criar componentes reutilizáveis e flexíveis. Você entenderá como passar conteúdo personalizado para um componente pai e como acessar e manipular esse conteúdo dentro do componente filho.
 
 Atenção: Quando usamos o vite, a extensão dos arquivos sempre serão .jsx. Para rodar o projeto apenas use npm install e em seguinda npm run dev
+
+A base do React - Propriedades default de componentes
+Nesta aula, você aprenderá sobre as propriedades padrão (default) dos componentes. Durante esta aula, você entenderá como definir e usar propriedades padrão em seus componentes React.
+
+Atenção: Quando usamos o vite, a extensão dos arquivos sempre serão .jsx. Para rodar o projeto apenas use npm install e em seguinda npm run dev
