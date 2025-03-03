@@ -30,3 +30,15 @@ Em seguida, abordaremos os componentes de classe, que são uma abordagem mais an
 
 Componentes no React são pequenos pedaços. https://pt-br.legacy.reactjs.org/docs/components-and-props.html#gatsby-focus-wrapper
 
+A base do React - Criando um projeto React usando VITE
+Nessa aula, vamos aprender a criar projetos React rapidamente usando VITE, uma alternativa moderna ao Create React App.
+
+IMPORTANTE: 
+
+Opte sempre por começar usando esse método, a aula seguinte é OPCIONAL
+https://vite.dev/guide/
+
+ base do React - Criando projetos com create-react-app
+Nesta aula, vamos ver como criar projetos utilizando a ferramenta create-react-app. Durante essa aula, você entenderá como configurar um ambiente de desenvolvimento React utilizando o create-react-app, que é uma forma rápida e conveniente de iniciar um novo projeto.
+
+Lembrando que o CRA não é mais recomendado para a criação dos projetos React, com isso, será criado uma aula futuramente de como criar projetos React usando Vite, que é o recomendado atualmente.
