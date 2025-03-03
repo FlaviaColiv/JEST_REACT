@@ -17,3 +17,6 @@ https://legacy.reactjs.org/docs/cdn-links.html
 
 A base do React - O JSX
 Nesta aula introdutória, você será apresentado ao conceito de JSX e sua importância no desenvolvimento de aplicações React. O JSX é uma extensão da sintaxe do JavaScript que permite escrever código HTML/XML dentro do JavaScript.
+https://pt-br.legacy.reactjs.org/docs/introducing-jsx.html
+
+Babel é um compilador de JS. https://babeljs.io/
