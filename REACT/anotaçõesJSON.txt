@@ -5,3 +5,12 @@ Você começará entendendo o que é o React e por que ele se tornou tão popula
 
 React é uma biblioteca que serve para a criação de interfaces de usuário.
 Mais para desenvolvimento web frontend
+SPAs - Single Page Apllications === carregamento mais rápido pq faz vários itens conversar em uma mesma página, sem precisar recarregar a página.
+Ajuda a criar interface do usuário.
+
+A base do React - Criando um projeto de exemplo com React
+Nesta aula sobre a base do React, você aprenderá a criar um projeto de exemplo utilizando o React.
+
+Durante a aula, você será guiado passo a passo na criação de um projeto de exemplo
+
+
