@@ -45,7 +45,10 @@
             <b>Comandos utilizados na aula</b> <br>
             npm init -y - inicializa o npm no projeto sem perguntar as informações
             <br>
-            npm install -g typescript - instala o TypeScript globalmente no PC
+            npm install -g typescript - instala o TypeScript globalmente no PC <b>OU</b>
+            <br>
+            npm install --save-dev typescript - instala somente na pasta (ajuda na hora clonar, pois só atualiza, <b>aí
+                usa</b> <br> npm install (puro) que já roda)
             <br>
             npx tsc exemplo-compilacao/index.ts - executa o compilador do TypeScript para transformar o arquivo .ts para
             .js
@@ -65,35 +68,56 @@
         </p>
     </div>
 
+    <!-- ok -->
     <div>
-        <h1>Entendendo o TypeScript</h1>
-        <h4>TypeScript - Entendendo o TypeScript</h4>
+        <h1>Entenda os tipos no TypeScript - Parte 1 ✔️</h1>
+        <h4>TypeScript - Entenda os tipos no TypeScript - Parte 1</h4>
         <p>
-            TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, o nome dela já diz
-            Type, de tipo, então ela vai ser muito usada quando queremos tipar nosso código, calma que logo vamos
-            explicar por que tipagem é tão importante.
+            Os tipos, aqui começa uma das maiores diferenças do ts para o js, a tipagem.
 
-            O TS foi desenvolvido pela Microsoft e é considerado um superset do JS, que seria uma linguagem construída
-            “em cima” do javascript tradicional.
-            <br>
-            Link de apoio:
-            <a href="https://www.typescriptlang.org/">Documentação TypeScript:</a>
+            O TypeScript oferece todos os recursos do JavaScript e uma camada adicional em cima deles: o sistema de
+            tipos do TypeScript.
+            O JavaScript fornece tipos primitivos de linguagem como string e número, mas não verifica se atribuímos eles
+            de forma correta. O TypeScript sim vai fazer essa verificação.
+        </p>
+        <p>
+            <b>Código realizado durante a aula</b>
+            <pre>
+                <code>
+                    const nome = "Beto";
+                    let nome: string = "Beto";
+        
+                    let idade = 42;
+                    let idade: number = 42;
+        
+                    const mandouEmail = true;
+                    let mandouEmail: boolean = true;
+        
+                    let idades: number[] = [12, 22, 39];
+                    let nomes: string[] = ['Roberto', 'Ricardo', 'Raphael'];
+                    let idades: Array<number> = [12, 22, 39];
+        
+                        let obj: any = {x:0};
+        
+                        function imprimirCoordenadas(pt: { x: number; y: number }) {
+                        console.log("The coordinate's x value is " + pt.x);
+                        console.log("The coordinate's y value is " + pt.y);
+                        }
+                        imprimirCoordenadas({ x: 3, y: 7 });
+                </code>
+            </pre>
         </p>
     </div>
 
+    <!-- ok -->
     <div>
-        <h1>Entendendo o TypeScript</h1>
-        <h4>TypeScript - Entendendo o TypeScript</h4>
+        <h1>Entenda os tipos no TypeScript - Parte 2 ✔️</h1>
+        <h4>TypeScript - Entenda os tipos no TypeScript - Parte 2</h4>
         <p>
-            TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, o nome dela já diz
-            Type, de tipo, então ela vai ser muito usada quando queremos tipar nosso código, calma que logo vamos
-            explicar por que tipagem é tão importante.
-
-            O TS foi desenvolvido pela Microsoft e é considerado um superset do JS, que seria uma linguagem construída
-            “em cima” do javascript tradicional.
+            Continuando com os tipos no TypeScript, vamos ver mais outros existentes. 
             <br>
             Link de apoio:
-            <a href="https://www.typescriptlang.org/">Documentação TypeScript:</a>
+            <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html">Documentação dos tipos</a>
         </p>
     </div>
 
