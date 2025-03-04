@@ -1,0 +1,11 @@
+Quest React Avançado - Teste Técnico Pokédex 
+✨ Supere este desafio incrível! ✨
+
+Utilize seus conhecimentos adquiridos nos módulos de React e Context-API para enfrentá-lo da maneira mais brilhante possível! 💪
+
+Faça o download do arquivo PDF, que está anexado aqui, e lá encontrará as instruções para este desafio! 📥
+
+Após concluí-lo, envie o link do repositório público do GitHub onde você armazenou sua solução no canal de quests-prontas
+
+Boa sorte, e que os desafios estejam ao seu alcance! 🚀
+
