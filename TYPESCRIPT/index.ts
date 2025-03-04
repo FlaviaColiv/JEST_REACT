@@ -1,9 +1,9 @@
-function pessoa(params:AnimationEffect) {
+function pessoa(numero: number) {
     console.log(pessoa)
     return
 }
 
-pessoa [ 1 ]
+pessoa(36)
 
 // enum TradeType {
 //     ACAO = 9281,
@@ -24,3 +24,16 @@ enum StatusCode {
 const ok = StatusCode.OK; //200
 const indexOk = StatusCode['OK']; //200
 const stringBadRequest = StatusCode[400]; //BadReFquest
+
+function greet(name: string) {
+    console.log(`Olá, ${name}!`)
+}
+
+greet("Flávia")
+
+function doubleNumber(number1: number) : number {
+    return number1 * 2;
+}
+
+const resultado = doubleNumber(3);
+console.log(resultado);
