@@ -235,6 +235,8 @@
             <b>Código realizado durante a aula</b>
             <pre>
                 <code>
+                    type id = number | string;
+
                     let idCustomer: id;
 
                     idCustomer = 101
@@ -249,19 +251,36 @@
         </p>
     </div>
 
+    <!-- ok -->
     <div>
-        <h1>Entendendo o TypeScript</h1>
-        <h4>TypeScript - Entendendo o TypeScript</h4>
+        <h1>Tipagem de objetos ✔️</h1>
+        <h4>TypeScript - Tipagem de objetos</h4>
         <p>
-            TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, o nome dela já diz
-            Type, de tipo, então ela vai ser muito usada quando queremos tipar nosso código, calma que logo vamos
-            explicar por que tipagem é tão importante.
+            Nessa aula, vamos aprender a criar tipos pra objetos usando o TypeScript . 
 
-            O TS foi desenvolvido pela Microsoft e é considerado um superset do JS, que seria uma linguagem construída
-            “em cima” do javascript tradicional.
-            <br>
-            Link de apoio:
-            <a href="https://www.typescriptlang.org/">Documentação TypeScript:</a>
+            Só pra relembrar: os objetos são valores no JavaScript que contem propriedades, nós já viram vários objetos ai pelo curso agora com TypeScript a gente vai poder definir esses objetos com um tipo especifico.
+        </p>
+        <p>
+            Código do tipo do objeto
+            <pre>
+                <code>
+                    type Customer = {
+                        name: string;
+                        age: number;
+                     }
+                </code>
+            </pre>
+        </p>
+        <p>
+            Código da função para mostrar informações do usuário
+            <pre>
+                <code>
+                    function showCustomerInfo(customer: Customer) {
+                        console.log(`O nome do cliente é: ${customer.name}`)
+                        console.log(`A idade do cliente é: ${customer.age}`)
+                     }
+                </code>
+            </pre>
         </p>
     </div>
 
