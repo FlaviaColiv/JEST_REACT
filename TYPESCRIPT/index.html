@@ -16,7 +16,7 @@
             TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, o nome dela já diz
             Type, de tipo, então ela vai ser muito usada quando queremos tipar nosso código, calma que logo vamos
             explicar por que tipagem é tão importante.
-
+            <br>
             O TS foi desenvolvido pela Microsoft e é considerado um superset do JS, que seria uma linguagem construída
             “em cima” do javascript tradicional.
             <br>
@@ -25,19 +25,43 @@
         </p>
     </div>
 
+    <!-- ok -->
     <div>
-        <h1>Entendendo o TypeScript</h1>
-        <h4>TypeScript - Entendendo o TypeScript</h4>
+        <h1>Instalação e primeiros passos de uso ✔️</h1>
+        <h4>TypeScript - Instalação e primeiros passos de uso</h4>
         <p>
-            TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, o nome dela já diz
-            Type, de tipo, então ela vai ser muito usada quando queremos tipar nosso código, calma que logo vamos
-            explicar por que tipagem é tão importante.
-
-            O TS foi desenvolvido pela Microsoft e é considerado um superset do JS, que seria uma linguagem construída
-            “em cima” do javascript tradicional.
+            Vamos começar a entender como instalar e compilar o typescript. É importante começar dizendo que o código em
+            ts é compilado para js.
             <br>
-            Link de apoio:
-            <a href="https://www.typescriptlang.org/">Documentação TypeScript:</a>
+            Compilar seria pegar um código em um determinado formato e transformar pra outro.
+            <br>
+            Links de apoio:
+            <br>
+            <a href="https://nodejs.org/en/">Download do Node.js</a>
+            <br>
+            <a href="https://www.typescriptlang.org/tsconfig">Documentação do TsConfig</a>
+        </p>
+        <p>
+            <b>Comandos utilizados na aula</b> <br>
+            npm init -y - inicializa o npm no projeto sem perguntar as informações
+            <br>
+            npm install -g typescript - instala o TypeScript globalmente no PC
+            <br>
+            npx tsc exemplo-compilacao/index.ts - executa o compilador do TypeScript para transformar o arquivo .ts para
+            .js
+            <br>
+            npx tsc --init - cria o arquivo de configuração do TypeScript no projeto
+        </p>
+        <p>
+            <b>Código realizado durante a aula</b> <br>
+            function sendMessage(userName: string, isLogged: boolean) {
+            console.log(`Olá ${userName}. Você ${!isLogged? " não" : ""} pode logar.`)
+            }
+            <br>
+            const userName = "Beto"
+            const isLogged = true
+            <br>
+            sendMessage(userName, isLogged)
         </p>
     </div>
 
