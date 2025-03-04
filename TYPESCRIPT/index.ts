@@ -1,4 +1,4 @@
-function pessoa(numero: number) {
+function pessoa(numero: number | string) {
     console.log(pessoa)
     return
 }
