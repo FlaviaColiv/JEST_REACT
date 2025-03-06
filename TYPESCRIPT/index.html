@@ -287,20 +287,49 @@
         </p>
     </div>
 
+    <!-- ok -->
     <div>
-        <h1>Entendendo o TypeScript</h1>
-        <h4>TypeScript - Entendendo o TypeScript</h4>
+        <h1>Propriedades e parâmetros opcionais ✔️</h1>
+        <h4>TypeScript - Propriedades e parâmetros opcionais</h4>
         <p>
-            TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, o nome dela já diz
-            Type, de tipo, então ela vai ser muito usada quando queremos tipar nosso código, calma que logo vamos
-            explicar por que tipagem é tão importante.
-
-            O TS foi desenvolvido pela Microsoft e é considerado um superset do JS, que seria uma linguagem construída
-            “em cima” do javascript tradicional.
-            <br>
-            Link de apoio:
-            <a href="https://www.typescriptlang.org/">Documentação TypeScript:</a>
+            No TypeScript, podemos definir propriedades e parâmetros com valores opcionais, por exemplo:
         </p>
+        <h5>Código do tipo do Customer com parâmetro opcional</h5>
+        <pre>
+            <code>
+                type Customer = {
+                    firstName: string;
+                    lastName?: string;
+                    age: number;
+                 }
+            </code>
+        </pre>
+        <h5>Código com a criação de um novo Customer sem o parâmetro lastName</h5>
+        <pre>
+            <code>
+                const newCustomer: Customer = {
+                    firstName: 'João',
+                    age: 34
+                 }
+                 
+                 console.log(newCustomer)
+            </code>
+        </pre>
+        <h5>Exemplo de função com parâmetro opcional</h5>
+        <pre>
+            <code>
+                function printName(first: string, last?: string) {
+                    console.log(`O primeiro nome é : ${first}`)
+                    console.log(`O ultimo nome é : ${last}"`)
+                 }
+                 
+                 // agora eu posso chamar a função passando só um argumento pq o outro é opcional
+                 printName("Ricardo");
+                 
+                 // mas se eu quiser passar os dois eu posso também
+                 printName("Ricardo", "Silva");
+            </code>
+        </pre>
     </div>
 
     <div>
