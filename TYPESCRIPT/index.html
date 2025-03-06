@@ -332,20 +332,31 @@
         </pre>
     </div>
 
+    <!-- ok -->
     <div>
-        <h1>Entendendo o TypeScript</h1>
-        <h4>TypeScript - Entendendo o TypeScript</h4>
+        <h1>Especificando tipos com Type Assertions ✔️</h1>
+        <h4>TypeScript - Especificando tipos com Type Assertions</h4>
         <p>
-            TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, o nome dela já diz
-            Type, de tipo, então ela vai ser muito usada quando queremos tipar nosso código, calma que logo vamos
-            explicar por que tipagem é tão importante.
-
-            O TS foi desenvolvido pela Microsoft e é considerado um superset do JS, que seria uma linguagem construída
-            “em cima” do javascript tradicional.
+            Nessa aula,  vamos ver o conceito de type assertions, que seria basicamente a gente dizer pro TypeScript qual o tipo que é esperado pra um valor.
             <br>
-            Link de apoio:
-            <a href="https://www.typescriptlang.org/">Documentação TypeScript:</a>
+            Algumas vezes o TypeScript não sabe qual tipo esperar, então podemos informar isso.
         </p>
+        <h5>Código de exemplo do HTMLButtonElement</h5>
+        <pre>
+            <code>
+                const button = document.getElementById('button') as HTMLButtonElement;
+            </code>
+        </pre>
+        <h5>Código de exemplo do listener do elemento de botão</h5>
+        <pre>
+            <code>
+                const button = document.getElementById('button') as HTMLButtonElement;
+
+                button.addEventListener('click', event => {
+                   const mouseEvent = event as MouseEvent;
+                });
+            </code>
+        </pre>
     </div>
 
     <div>
