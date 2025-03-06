@@ -367,6 +367,9 @@
             TypeScript - Interfaces: mais uma forma de nomear tipos de objetos
             Nessa aula, vamos aprender a criar Interfaces. Da mesma forma que usamos o Type para criar um tipo, podemos utilizar a Interface para criar um tipo, mas a diferença entre eles é que a Interface pode ser estendida para outras Interfaces.
         </p>
+        <p>
+            <b>Type</b> (T) - é interessante para tipos primitivos e o  <br><b>Interface</b> (I) - para quando queremos criar um novo objeto.
+        </p>
         <h5>Código realizado durante a aula</h5>
         <pre>
             <code>
@@ -408,20 +411,29 @@
         </pre>
     </div>
 
+    <!-- ok -->
     <div>
-        <h1>Entendendo o TypeScript</h1>
-        <h4>TypeScript - Entendendo o TypeScript</h4>
+        <h1>Generics: deixando o código reutilizável ✔️</h1>
+        <h4>TypeScript - Generics: deixando o código reutilizável</h4>
         <p>
-            TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, o nome dela já diz
-            Type, de tipo, então ela vai ser muito usada quando queremos tipar nosso código, calma que logo vamos
-            explicar por que tipagem é tão importante.
-
-            O TS foi desenvolvido pela Microsoft e é considerado um superset do JS, que seria uma linguagem construída
-            “em cima” do javascript tradicional.
-            <br>
-            Link de apoio:
-            <a href="https://www.typescriptlang.org/">Documentação TypeScript:</a>
+            A documentação do TypeScript explica o Generics como “sendo capaz de criar um componente que pode funcionar em vários tipos, em vez de em um único”.
         </p>
+        <h5>Código realizado durante a aula</h5>
+        <pre>
+            <code>
+                // Função genérica que aceita um argumento do tipo T 
+                // e retorna um array de valores do mesmo tipo T
+                function makeArray(num: number): number[] {
+                   return [num];
+                }
+                
+                // Uso da função com tipo number
+                let numbers = makeArray(10);
+                console.log(numbers); // Output: [10]
+                
+                //numbers.filter(n => n % 2)
+            </code>
+        </pre>
     </div>
 
     <div>
