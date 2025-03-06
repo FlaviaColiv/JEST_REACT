@@ -436,20 +436,38 @@
         </pre>
     </div>
 
+    <!-- ok -->
     <div>
-        <h1>Entendendo o TypeScript</h1>
-        <h4>TypeScript - Entendendo o TypeScript</h4>
+        <h1>Import e export de módulo no TS ✔️</h1>
+        <h4>TypeScript - Import e export de módulo no TS</h4>
         <p>
-            TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, o nome dela já diz
-            Type, de tipo, então ela vai ser muito usada quando queremos tipar nosso código, calma que logo vamos
-            explicar por que tipagem é tão importante.
-
-            O TS foi desenvolvido pela Microsoft e é considerado um superset do JS, que seria uma linguagem construída
-            “em cima” do javascript tradicional.
-            <br>
-            Link de apoio:
-            <a href="https://www.typescriptlang.org/">Documentação TypeScript:</a>
+            Nessa aula, vamos aprender como funciona a importação e exportação de módulos no TypeScript.
         </p>
+        <h5>Código interface Customer</h5>
+        <pre>
+            <code>
+                export interface Customer {
+                    name: string;
+                    age: number;
+                 }
+            </code>
+        </pre>
+        <h5>Código do arquivo newCustomer.ts</h5>
+        <pre>
+            <code>
+                import { Customer } from 'customer'
+
+                interface SpecialCustomer extends Customer {
+                   couponQuantity: number
+                }
+                
+                const specialCustomer: SpecialCustomer = {
+                   couponQuantity: 10,
+                   name: 'Maria',
+                   age: 32
+                }
+            </code>
+        </pre>
     </div>
 
     <div>
@@ -466,6 +484,12 @@
             Link de apoio:
             <a href="https://www.typescriptlang.org/">Documentação TypeScript:</a>
         </p>
+        <h5>Código de exemplo do HTMLButtonElement</h5>
+        <pre>
+            <code>
+                const button = document.getElementById('button') as HTMLButtonElement;
+            </code>
+        </pre>
     </div>
 
     <div>
@@ -482,6 +506,12 @@
             Link de apoio:
             <a href="https://www.typescriptlang.org/">Documentação TypeScript:</a>
         </p>
+        <h5>Código de exemplo do HTMLButtonElement</h5>
+        <pre>
+            <code>
+                const button = document.getElementById('button') as HTMLButtonElement;
+            </code>
+        </pre>
     </div>
 
 </body>
